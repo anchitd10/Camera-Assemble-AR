@@ -1,0 +1,271 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vuforia.engine.ARCam"
+4    android:installLocation="preferExternal"
+5    android:versionCode="10284"
+6    android:versionName="10.28.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-65
+20-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-62
+21
+22    <uses-feature android:glEsVersion="0x00030000" />
+22-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-54
+22-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:19-51
+23    <uses-feature
+23-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera"
+24-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-47
+25        android:required="true" />
+25-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+26    <uses-feature
+26-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-57
+28        android:required="false" />
+28-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+29    <uses-feature
+29-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+30        android:name="android.hardware.camera.front"
+30-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-53
+31        android:required="false" />
+31-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+32    <uses-feature
+32-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:5-25:36
+33        android:name="android.hardware.touchscreen"
+33-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-52
+34        android:required="false" />
+34-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:5-28:36
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-63
+37        android:required="false" />
+37-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-33
+38    <uses-feature
+38-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:5-31:36
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-72
+40        android:required="false" />
+40-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:9-33
+41
+42    <queries>
+42-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:20:5-22:15
+43        <package android:name="com.google.ar.core" />
+43-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:21:9-54
+43-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:21:18-51
+44    </queries>
+45
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:9:5-79
+46-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:9:22-76
+47    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+47-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:11:5-79
+47-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:11:22-76
+48    <!--
+49        Required by Vuforia: Add this permission to access IMU sensors at high rate
+50        for device tracker functionality on Android 12+.
+51    -->
+52    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+52-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:16:5-85
+52-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:16:22-82
+53
+54    <application
+54-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-126
+55        android:extractNativeLibs="true"
+55-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:18-50
+56        android:icon="@mipmap/app_icon"
+56-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+57        android:label="@string/app_name"
+57-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+58        android:roundIcon="@mipmap/app_icon_round" >
+58-->E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:81-123
+59        <meta-data
+59-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-36:33
+60            android:name="unity.splash-mode"
+60-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-45
+61            android:value="0" />
+61-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-30
+62        <meta-data
+62-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-39:36
+63            android:name="unity.splash-enable"
+63-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-47
+64            android:value="True" />
+64-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-33
+65        <meta-data
+65-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-42:36
+66            android:name="unity.launch-fullscreen"
+66-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-51
+67            android:value="True" />
+67-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-33
+68        <meta-data
+68-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-45:36
+69            android:name="unity.render-outside-safearea"
+69-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-57
+70            android:value="True" />
+70-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-33
+71        <meta-data
+71-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:9-48:50
+72            android:name="notch.config"
+72-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-40
+73            android:value="portrait|landscape" />
+73-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-47
+74        <meta-data
+74-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:9-51:36
+75            android:name="unity.auto-report-fully-drawn"
+75-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-57
+76            android:value="true" />
+76-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-33
+77
+78        <activity
+78-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:9-74:20
+79            android:name="com.unity3d.player.UnityPlayerActivity"
+79-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-66
+80            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+80-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-194
+81            android:exported="true"
+81-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-36
+82            android:hardwareAccelerated="false"
+82-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-48
+83            android:launchMode="singleTask"
+83-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-44
+84            android:resizeableActivity="false"
+84-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:13-47
+85            android:screenOrientation="portrait"
+85-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-49
+86            android:theme="@style/UnityThemeSelector" >
+86-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-54
+87            <intent-filter>
+87-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:13-66:29
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:17-77
+88-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:27-74
+89
+90                <action android:name="android.intent.action.MAIN" />
+90-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:17-69
+90-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:25-66
+91            </intent-filter>
+92
+93            <meta-data
+93-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:13-70:40
+94                android:name="unityplayer.UnityActivity"
+94-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:17-57
+95                android:value="true" />
+95-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:17-37
+96            <meta-data
+96-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:13-73:40
+97                android:name="notch_support"
+97-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:17-45
+98                android:value="true" />
+98-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:17-37
+99        </activity>
+100
+101        <meta-data
+101-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:9-78:40
+102            android:name="com.google.ar.core"
+102-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-46
+103            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+103-->[:unityLibrary] E:\AR & VR Development\Camera-Assemble-AR\AR First\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:13-37
+104        <meta-data
+104-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:27:9-29:41
+105            android:name="com.google.ar.core.min_apk_version"
+105-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:28:13-62
+106            android:value="223110000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+106-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:29:13-38
+107        <activity
+107-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:31:9-37:80
+108            android:name="com.google.ar.core.InstallActivity"
+108-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:32:13-62
+109            android:configChanges="keyboardHidden|orientation|screenSize"
+109-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:33:13-74
+110            android:excludeFromRecents="true"
+110-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:34:13-46
+111            android:exported="false"
+111-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:35:13-37
+112            android:launchMode="singleTop"
+112-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:36:13-43
+113            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+113-->[com.google.ar:core:1.36.0] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\eb2f5ff232dcdee13e4ee7dc3adcec46\transformed\core-1.36.0\AndroidManifest.xml:37:13-77
+114        <activity
+114-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:14:9-18:74
+115            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+115-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:15:13-74
+116            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+116-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:16:13-170
+117            android:hardwareAccelerated="true"
+117-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:17:13-47
+118            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+118-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:18:13-71
+119        <activity
+119-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:19:9-23:86
+120            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+120-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:20:13-85
+121            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+121-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:21:13-170
+122            android:hardwareAccelerated="true"
+122-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:22:13-47
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+123-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:23:13-83
+124        <activity
+124-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:24:9-28:86
+125            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+125-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:25:13-93
+126            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+126-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:26:13-170
+127            android:hardwareAccelerated="false"
+127-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:27:13-48
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+128-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:28:13-83
+129        <activity
+129-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:29:9-33:74
+130            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+130-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:30:13-82
+131            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+131-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:31:13-170
+132            android:hardwareAccelerated="false"
+132-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:32:13-48
+133            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+133-->[:UnityAds:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\adbf08521aa54dfca53a73706143af76\transformed\UnityAds\AndroidManifest.xml:33:13-71
+134
+135        <provider
+135-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:25:9-33:20
+136            android:name="com.vuforia.engine.app.VuforiaContentProvider"
+136-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:26:13-73
+137            android:authorities="com.vuforia.engine.ARCam.vuforia.share"
+137-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:27:13-65
+138            android:exported="false"
+138-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:28:13-37
+139            android:grantUriPermissions="true" >
+139-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:29:13-47
+140            <meta-data
+140-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:30:13-32:53
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:31:17-67
+142                android:resource="@xml/filepaths" />
+142-->[:VuforiaEngine:] C:\Users\ASUS TUF GAMING  A15\.gradle\caches\transforms-3\caed340cee2e014286f80b52356c673f\transformed\VuforiaEngine\AndroidManifest.xml:32:17-50
+143        </provider>
+144    </application>
+145
+146</manifest>

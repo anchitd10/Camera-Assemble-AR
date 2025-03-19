@@ -1,0 +1,4 @@
+#Mon Mar 10 14:33:17 IST 2025
+base.0=E\:\\AR & VR Development\\Camera-Assemble-AR\\AR First\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
